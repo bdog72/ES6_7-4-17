@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { AppContainer } from 'react-hot-loader'
 import Redbox from 'redbox-react'
-
+import { BrowserRouter as Router } from 'react-router-dom'
 import App from './components/App'
 
 import './styles/screen.scss'
@@ -16,7 +16,11 @@ const render = app => {
   )
 }
 
-render(<App />)
+render(
+  <Router>
+    <App />
+  </Router>
+)
 
 if (module.hot) {
   module.hot.accept('./components/App', () => {
