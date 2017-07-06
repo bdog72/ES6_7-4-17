@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import App1 from './App1.js'
 export default class App extends Component {
   render () {
     return (
@@ -9,7 +9,6 @@ export default class App extends Component {
           <h1 className='es6'>ES6</h1>
           <p className='header'>Check the console!</p>
         </div>
-
         <ul>
           <li data-time='5:17'>Flexbox Video</li>
           <li data-time='8:22'>Flexbox Video</li>
@@ -32,11 +31,27 @@ export default class App extends Component {
           <li data-time='5:59'>Redux Video</li>
           <li data-time='3:31'>Flexbox Video</li>
         </ul>
+        <div>
+          <App1 />
+        </div>
       </div>
     )
   }
 }
 
+// function highlight (strings, ...values) {
+//   let str = ''
+//   strings.forEach((string, i) => {
+//     str += string + values[i]
+//   })
+//   return str
+// }
+//
+// const name3 = 'Molly'
+// const age3 = 4
+// const sentence3 = highlight`my dogs name is ${name3} and she is ${age3} years old`
+//
+// console.log(sentence3)
 //
 // const dogs1 = [
 //   { name: 'Molly', age: 4 },
