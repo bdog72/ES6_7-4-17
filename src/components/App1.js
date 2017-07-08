@@ -8,43 +8,104 @@ export default class App1 extends Component {
   }
 }
 
-const person2 = {
-  first2: 'Brian',
-  last2: 'Bdog',
-  country: 'USA',
-  city: 'Florida',
-  twitter: '@bozo'
-}
+// const ages = [32, 15, 19, 32]
+//
+// const adultPresent = ages.some(age => age >= 18)
+// console.log(adultPresent)
 
-const { first2, last2 } = person2
-console.log(first2)
-console.log(last2)
+// function sumAll () {
+//   const nums = Array.from(arguments)
+//   return nums.reduce((prev, next) => prev + next, 0)
+// }
+// sumAll(2, 34, 44, 555, 567)
 
-const bdog2 = {
-  first3: 'Brian',
-  last3: 'Bycynski',
-  links: {
-    social: {
-      twitter: 'https://twitter.com/wesbos',
-      facebook: 'https://facebook.com/wesbos.developer'
-    },
-    web: {
-      blog: 'https://wesbos.com'
-    }
-  }
-}
+// const apple = {
+//   color: 'red',
+//   size: 'Medium',
+//   weight: 50,
+//   sugar: 10
+// }
+// console.log(apple.size)
+// const ps = document.querySelectorAll('p')
+// for (const paragraph of ps) {
+//   paragraph.addEventListener('click', function () {
+//     console.log(this.textContent)
+//   })
+// }
+// const name = 'Bozo'
+// for (const char of name) {
+//   console.log(char)
+// }
 
-const { twitter: tweet2, facebook: fb2 } = bdog2.links.social
-console.log(tweet2)
-console.log(fb2)
-console.log(bdog2)
+// const cuts = ['Chuck', 'Brisket', 'Ribs', 'Steak']
+// for (const [i, cut] of cuts.entries()) {
+//   // console.log(cuts.entries())
+//   console.log(`${cut} is the ${i + 1} item`)
+// }
 
-const settings2 = { width2: 300, color2: 'blue' }
-const { width2 = 100, height2 = 100, color2 = 'orange', fontSize2 = 25 } = settings2
-console.log(width2)
-console.log(height2)
-console.log(color2)
-console.log(fontSize2)
+//
+// for (const index in cuts) {
+//   console.log(cuts[index])
+// }
+
+// cuts.forEach((cut) => {
+//   console.log(cut)
+// })
+
+// for (let i = 0; i < cuts.length; i++) {
+//   console.log(cuts[i])
+// }
+
+// let inRing = 'Hulk Hogan'
+// let onSide = 'The Rock'
+// console.log(inRing, onSide);
+// [inRing, onSide] = [onSide, inRing]
+// console.log(inRing, onSide)
+
+// const details3 = ['Bdog B', 123, 'brian.com']
+// const [name3, id3, website3] = details3
+// console.log(name3, id3, website3)
+//
+// const data3 = 'Basketball, Sports, 90210'
+// console.log(data3.split(','))
+
+// const person2 = {
+//   first2: 'Brian',
+//   last2: 'Bdog',
+//   country: 'USA',
+//   city: 'Florida',
+//   twitter: '@bozo'
+// }
+//
+// const { first2, last2 } = person2
+// console.log(first2)
+// console.log(last2)
+//
+// const bdog2 = {
+//   first3: 'Brian',
+//   last3: 'Bycynski',
+//   links: {
+//     social: {
+//       twitter: 'https://twitter.com/wesbos',
+//       facebook: 'https://facebook.com/wesbos.developer'
+//     },
+//     web: {
+//       blog: 'https://wesbos.com'
+//     }
+//   }
+// }
+//
+// const { twitter: tweet2, facebook: fb2 } = bdog2.links.social
+// console.log(tweet2)
+// console.log(fb2)
+// console.log(bdog2)
+//
+// const settings2 = { width2: 300, color2: 'blue' }
+// const { width2 = 100, height2 = 100, color2 = 'orange', fontSize2 = 25 } = settings2
+// console.log(width2)
+// console.log(height2)
+// console.log(color2)
+// console.log(fontSize2)
 
 //
 // function convertCurrency (amount) {
